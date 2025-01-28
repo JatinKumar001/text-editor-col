@@ -45,6 +45,8 @@ npm run dev
 ### 4. Open in your browser
 Visit [http://localhost:5173](http://localhost:5173) to see the application in action.
 
+---
+
 ## 📁 Project Structure
 - **src/App.tsx**: Root component initializing the editor environment
 - **src/components/Editor.tsx**: Handles editor instance and text editing logic
