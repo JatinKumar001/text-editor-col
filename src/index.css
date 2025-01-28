@@ -1,0 +1,67 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@import "@liveblocks/react-ui/styles.css";
+@import "@liveblocks/react-tiptap/styles.css";
+
+.ProseMirror {
+    outline: none !important;
+    border: none !important;
+    all: unset;
+    display: block;
+    white-space: pre-wrap;
+    padding: 16px;
+    border-radius: 0;
+    background-color: #f3f4f6;
+    min-height: 70vh;
+    max-width: 100%;
+    /* overflow: scroll; */
+    /* font-family: "Poppins", serif; */
+}
+
+.ProseMirror h1,
+.ProseMirror h2,
+.ProseMirror h3,
+.ProseMirror p {
+    font-size: initial;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.ProseMirror blockquote {
+    margin: 0;
+}
+
+.ProseMirror ul,
+.ProseMirror ol {
+    padding-left: 1.25em;
+}
+
+.ProseMirror ol{
+    list-style: decimal;
+}
+
+.ProseMirror ul{
+    list-style: disc;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
