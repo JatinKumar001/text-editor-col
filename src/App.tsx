@@ -135,7 +135,6 @@ function App() {
                   key={activeDocId}
                   docId={activeDocId}
                   documents={documents}
-                  setDocuments={setDocuments}
                 />
               </div>
             </div>

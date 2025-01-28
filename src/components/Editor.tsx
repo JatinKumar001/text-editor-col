@@ -25,7 +25,6 @@ interface Document {
 interface EditorProps {
   docId: number;
   documents: Document[];
-  setDocuments: React.Dispatch<React.SetStateAction<Document[]>>;
 }
 
 const DEFAULT_CONTENT: JSONContent = {
@@ -34,7 +33,7 @@ const DEFAULT_CONTENT: JSONContent = {
   ],
 };
 
-const Editor: React.FC<EditorProps> = ({ docId, documents, setDocuments }) => {
+const Editor: React.FC<EditorProps> = ({ docId, documents }) => {
   const room = useRoom();
 
   const currentDoc = documents.find((doc) => doc.id === docId);
