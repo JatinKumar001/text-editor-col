@@ -4,6 +4,11 @@ A real-time collaborative text editor built with **React**, **TypeScript**, and 
 
 ---
 
+## 🔗 Project Links  
+
+- [Live Demo](https://text-editor-col.vercel.app/)
+
+
 ## 🚀 Features  
 
 - Real-time collaboration and conflict handling  
@@ -45,7 +50,9 @@ npm run dev
 ### 4. Open in your browser
 Visit [http://localhost:5173](http://localhost:5173) to see the application in action.
 
+
 ---
+
 
 ## 📁 Project Structure
 - **src/App.tsx**: Root component initializing the editor environment
