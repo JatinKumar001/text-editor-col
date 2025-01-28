@@ -8,8 +8,7 @@ A real-time collaborative text editor built with **React**, **TypeScript**, and 
 
 - Real-time collaboration and conflict handling  
 - Rich text formatting (headings, bold, lists, alignment, colors, highlights)  
-- Responsive toolbar with interactive dropdowns  
-- User cursors with unique colors  
+- Responsive toolbar with interactive dropdowns
 - Clean UI with Tailwind CSS  
 
 ---
